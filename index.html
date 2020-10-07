@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/6be9d7d349.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="ThePage">
+    <header class="entete"></header>
+    <main class="flexy container">
+      <div class="TTA">
+        <h3>Prix total : </h3>
+        <h3 id="PT">0€</h3>
+      </div>
+      <div class="row">
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+          </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/07/panier-fruits-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Le Fruits Bio</h6>
+            <ul>
+              <li>Raisin Italia Demeter IT</li>
+              <li>Poire William Rouge FR</li>
+              <li>Pomme Elstar FR</li>
+            </ul>
+          </div>
+          <div class="price">
+            <h4>11.00€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+            <div class="qte">
+                <span class="val">0</span></div>
+              
+            <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+          <!-- btn delete -->
+          <div class="del">
+            <button class="deleteBtn">X</button>
+            </div>
+            <div class="like">
+            <i class="far fa-heart fa-2x"></i>
+            <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+          </div>
+            <!-- fin btn delete -->
+          </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/07/panier-grandlegumes-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Le Grand Légumes Bio</h6>
+            <ul>
+              <li>Pdt Rouge Kuroda FR</li>
+              <li>Courge Melonnette FR</li>
+              <li>Poivron FR</li>
+              <li>Concombre FR</li>
+              <li>Courgette FR</li>
+            </ul>
+          </div>
+          <!-- prix  -->
+          <div class="price">
+            <h4>14.00€</h4>
+          </div>
+          <!-- fin prix -->
+          <!-- boutons + et - , et nb de produits -->
+          <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/06/panier-legumes-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Le Légumes Bio</h6>
+            <ul>
+              <li>Chou Kale FR</li>
+              <li>Pdt Rouge Kuroda FR</li>
+              <li>Courge Melonnette FR</li>
+              <li>Tomate FR</li>
+              <li>Oignon Jaune FR</li>
+            </ul>
+          </div>
+          <div class="price">
+            <h4>10.00€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/07/panier-fruitsetlegumes-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Le Fruits et Légumes Bio</h6>
+            <ul>
+              <li>Pdt Rouge Kuroda FR</li>
+              <li>Poivron FR</li>
+              <li>Courgette FR</li>
+              <li>Poire William Rouge FR</li>
+              <li>Pomme Elstar FR</li>
+            </ul>
+          </div>
+          <div class="price">
+            <h4>10.00€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+              
+            <img
+              src="https://lecampanier.com/medias/2020/10/panier100francais2_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Panier 100% Français</h6>
+            <p>
+              Poids net 4,8 kg environ : salade, fenouil, pdt rouge Kuroda, chou
+              Kale, poivron vert, radis noir, poireau.
+            </p>
+          </div>
+          <div class="price">
+            <h4>16.50€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/10/panier5repas_4120_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Panier 5 Repas</h6>
+            <p>
+                Assortiment 100% bio de légumes et de produits d'épicerie pour préparer 5 repas pour 2 personnes
+            </p>
+            
+            </ul>
+          </div>
+          <div class="price">
+            <h4>37.00€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/10/haricots_verts_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Haricots Verts</h6>
+            <p>500g, récoltés à la main</p>
+            <p>Origine: France</p>
+          </div>
+          <div class="price">
+            <h4>7.60€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/09/chataigne_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Châtaignes Fraîches</h6>
+            <p>
+              Châtaignes Fraîches <br />
+              500g - Origine : France
+            </p>
+          </div>
+          <div class="price">
+            <h4>4.95€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/01/choucroute600x750-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Choucroute Crue Lactofermentée</h6>
+            <ul>
+              <li>Choucroute Crue lactofermentée</li>
+              <li>Le seau d’1 Kg</li>
+              <li>produit vivant</li>
+              <li>France, Alsace</li>
+            </ul>
+          </div>
+          <div class="price">
+            <h4>4.80€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/09/tomate_coeur_pigeon_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Tomates Cerises</h6>
+            <p>
+              Tomates Cerises <br />
+              250g <br />
+              Origine : France, Bretagne
+            </p>
+          </div>
+          <div class="price">
+            <h4>2.95€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/09/mesclun-600x765-1-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Mesclun Local</h6>
+            <p>
+              Mesclun Local <br />
+              100g <br />
+              Origine : France
+            </p>
+          </div>
+          <div class="price">
+            <h4>2.80€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/10/oignons_roses_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Tresse d’Oignons Roses de Bretagne</h6>
+            <p>
+              Tresse d’Oignons Roses de Bretagne <br />
+              1 kg <br />
+              France, Bretagne
+            </p>
+          </div>
+          <div class="price">
+            <h4>5.65€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2020/09/ail_fume_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Tresse d’ail fumé</h6>
+            <p>
+              Tresse d’ail fumé <br />
+              400g environ <br />
+              France, Hauts de France
+            </p>
+          </div>
+          <div class="price">
+            <h4>14.95€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+            <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/09/champignon-brun600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+            <h6>Champignons bruns de Paris locaux</h6>
+            <p>
+              250g <br />
+              Origine : France
+            </p>
+          </div>
+          <div class="price">
+            <h4>3.65€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+           <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+              <div class="qte"><span>0</span></div>
+              
+              <div class="sousAddBtn">
+                <button class="btnplus">+</button></div>
+        </div>
+        <!-- fin btn + et -  -->
+        </div>
+        <div class="col-3 box">
+          <div class="dellike">
+            <!-- btn delete -->
+            <div class="del">
+              <button class="deleteBtn">X</button>
+              </div>
+              <div class="like">
+              <i class="far fa-heart fa-2x"></i>
+              <!-- fa-2x resize de l'icone , si nn tnajam temchi lel css w t7ott  .fa-heart{font size=10px}-->
+            </div>
+              <!-- fin btn delete -->
+            </div>
+          <div class="imgProduct">
+            <img
+              src="https://lecampanier.com/medias/2019/10/pommes-de-terre_600x765-510x650.jpg"
+              alt=""
+              class="img-fluid full"
+            />
+          </div>
+          <div class="description">
+        
+              <h6> Pommes de terre Maïwen de l’Ile de Batz</h6> 
+              <p> sac de 1,5 kg <br />
+              Ile de Batz <br />
+              Origine : France
+            </p>
+          </div>
+          <div class="price">
+            <h4>4.50€</h4>
+          </div>
+           <!-- boutons + et - , et nb de produits -->
+          <div class="nbProduct">
+            <div class="sousAddBtn">
+              <button class="btnminus">-</button>
+            </div>
+            <div class="qte"><span>0</span></div>
+              
+            <div class="sousAddBtn">
+              <button class="btnplus">+</button>
+            </div>
+          </div>
+        <!-- fin btn + et -  -->
+      </div>
+    <!-- <div>
+      <button>Payer</button>
+    </div> -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
